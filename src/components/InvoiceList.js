@@ -12,7 +12,7 @@ const InvoiceList = ({ onSelectInvoice }) => {
         const response = await axios.get('https://code-test.sandbox.waya.se/api/invoices?page=1', {
 
           headers: {
-            Authorization: 'UserKey qx6B1EtpQ46586E72z9S'
+            Authorization: `UserKey ${process.env.REACT_APP_API_KEY}`
           }
         });
         setInvoices(response.data.data); // Access the `data` array in the response

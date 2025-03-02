@@ -15,7 +15,7 @@ const InvoiceDetail = ({ invoiceId }) => {
       try {
         const response = await axios.get(`https://code-test.sandbox.waya.se/api/invoices/${invoiceId}`, {
           headers: {
-            Authorization: 'UserKey qx6B1EtpQ46586E72z9S'
+            Authorization: `UserKey ${process.env.REACT_APP_API_KEY}`
           }
         });
         const invoiceData = response.data.data; // Access the nested `data` object
@@ -44,7 +44,7 @@ const InvoiceDetail = ({ invoiceId }) => {
         delivery_address: deliveryAddress // Update `delivery_address` (extra task)
       }, {
         headers: {
-          Authorization: 'UserKey qx6B1EtpQ46586E72z9S'
+          Authorization: `UserKey ${process.env.REACT_APP_API_KEY}`
         }
       });
       alert('Invoice updated successfully!');

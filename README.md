@@ -42,8 +42,9 @@ This is a **Invoice management app** that allows users to view, edit, and manage
 
 1. **Clone the repository**:
    
-   git clone https://github.com/your-username/invoice-management-app.git
-   cd invoice-management-app
+   git clone git remote add origin https://github.com/shadikawaf/faktura_app.git
+
+   cd faktura-app
 
 2. **Install dependencies:**:
   

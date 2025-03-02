@@ -1,6 +1,6 @@
 # Invoice Management App
 
-This is a **React-based invoice management app** that allows users to view, edit, and manage invoices fetched from a REST API. The app includes features like listing all invoices, viewing invoice details, and editing recipient information.
+This is a **Invoice management app** that allows users to view, edit, and manage invoices fetched from a REST API. The app includes features like listing all invoices, viewing invoice details, and editing recipient information.
 
 ---
 
@@ -26,9 +26,7 @@ This is a **React-based invoice management app** that allows users to view, edit
 
 ## Technologies Used
 
-- **React**: A JavaScript library for building user interfaces.
 - **Axios**: A promise-based HTTP client for making API requests.
-- **React Router**: For navigation between the invoice list and detail views.
 - **CSS**: For styling the app.
 
 ---
